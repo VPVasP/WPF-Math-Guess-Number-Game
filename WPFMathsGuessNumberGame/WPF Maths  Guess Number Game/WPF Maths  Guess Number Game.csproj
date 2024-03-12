@@ -11,11 +11,13 @@
 
   <ItemGroup>
     <None Remove="Backround.png" />
+    <None Remove="ButtonBackround.png" />
     <None Remove="Heart.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Backround.png" />
+    <Resource Include="ButtonBackround.png" />
     <Resource Include="Heart.png" />
   </ItemGroup>
 
