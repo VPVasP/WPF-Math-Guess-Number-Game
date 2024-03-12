@@ -1,8 +1,10 @@
 ﻿using System.Diagnostics;
 using System.Media;
+using System.Reflection;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
+using System.Windows.Threading;
 
 namespace WPF_Maths__Guess_Number_Game
 {
@@ -15,6 +17,7 @@ namespace WPF_Maths__Guess_Number_Game
         private readonly Random _rand = new Random();
         private MediaPlayer mediaPlayer = new MediaPlayer();
 
+  
         public MainWindow()
         {
             InitializeComponent();
@@ -183,6 +186,20 @@ namespace WPF_Maths__Guess_Number_Game
         {
             mediaPlayer.Open(new Uri(audioClipFilePath, UriKind.RelativeOrAbsolute));
             mediaPlayer.Play();
+        }
+
+        private void MuteMusic(object sender, RoutedEventArgs e)
+        {
+            mediaPlayer.IsMuted = !mediaPlayer.IsMuted;
+
+            if (mediaPlayer.IsMuted)
+            {
+                MuteButton.Content = "Unmute Music";
+            }
+            else
+            {
+                MuteButton.Content = "Mute Music";
+            }
         }
     }
 }

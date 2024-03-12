@@ -9,7 +9,7 @@
     <Grid>
       
         <Grid.Background>
-            <ImageBrush ImageSource="Backround.png" Stretch="UniformToFill"/>
+            <ImageBrush x:Name="BackgroundImage" ImageSource="Backround.png" Stretch="UniformToFill"/>
         </Grid.Background>
 
        
@@ -56,20 +56,24 @@ Source="Heart.png"
                VerticalAlignment="Top"
                Margin="0,150,890,0" />
 
+        <Button x:Name="MuteButton" HorizontalAlignment="Right" VerticalAlignment="Top"
+   Margin="0,100,10,0" Width="150" Height="100" Click="MuteMusic"  Content="Mute Music">
+        </Button>
+
         <Button x:Name="FirstAnswerButton" HorizontalAlignment="Right" VerticalAlignment="Top"
-            Margin="0,300,1500,0" Width="150" Height="150" Click="AnswerOne">
+            Margin="0,300,1400,0" Width="150" Height="100" Click="AnswerOne">
         </Button>
 
         <Button x:Name="SecondAnswerButton" HorizontalAlignment="Right" VerticalAlignment="Top"
-            Margin="0,300,1200,0" Width="150" Height="150" Click="AnswerTwo">
+            Margin="0,300,1100,0" Width="150" Height="100" Click="AnswerTwo">
         </Button>
 
         <Button x:Name="ThirdAnswerButton" HorizontalAlignment="Right" VerticalAlignment="Top"
-            Margin="0,300,900,0" Width="150" Height="150" Click="AnswerTwo">
+            Margin="0,300,800,0" Width="150" Height="100" Click="AnswerTwo">
         </Button>
 
         <Button x:Name="FourthAnswerButton" HorizontalAlignment="Right" VerticalAlignment="Top"
-            Margin="0,300,600,0" Width="150" Height="150" Click="AnswerTwo">
+            Margin="0,300,500,0" Width="150" Height="100" Click="AnswerTwo">
         </Button>
     </Grid>
 </Window>
