@@ -7,55 +7,59 @@
         mc:Ignorable="d"
         Title="WPF Maths Guess Number Game" Height="450" Width="800">
     <Grid>
+      
+        <Grid.Background>
+            <ImageBrush ImageSource="Backround.png" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+       
         <TextBlock x:Name="ScoreText"
-                   Text="{Binding Path=ScoreText, Mode=OneWay}"
-                   FontSize="48"
-                   HorizontalAlignment="Right"
-                   VerticalAlignment="Top" />
+               Text="{Binding Path=ScoreText, Mode=OneWay}"
+               FontSize="48"
+               HorizontalAlignment="Right"
+               VerticalAlignment="Top" />
 
         <TextBlock x:Name="Hearts"
-             Text="{Binding Path=ScoreText, Mode=OneWay}"
-             FontSize="48"
-             HorizontalAlignment="Left"
-             VerticalAlignment="Top" />
-
+               Text="{Binding Path=ScoreText, Mode=OneWay}"
+               FontSize="48"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top" />
 
         <TextBlock x:Name="FirstNumberText"
-            Text="FirstNumber"
-            FontSize="25"
-            HorizontalAlignment="Right"
-            VerticalAlignment="Top"
-            Margin="0,150,1370,0" />
+               Text="FirstNumber"
+               FontSize="25"
+               HorizontalAlignment="Right"
+               VerticalAlignment="Top"
+               Margin="0,150,1370,0" />
 
         <TextBlock x:Name="SecondNumberText"
-     Text="SecondNumber"
-     FontSize="25"
-     HorizontalAlignment="Right"
-     VerticalAlignment="Top"
-     Margin="0,150,1170,0" />
+               Text="SecondNumber"
+               FontSize="25"
+               HorizontalAlignment="Right"
+               VerticalAlignment="Top"
+               Margin="0,150,1170,0" />
 
         <TextBlock x:Name="ResultText"
-Text="ResultNumber"
-FontSize="25"
-HorizontalAlignment="Right"
-VerticalAlignment="Top"
-Margin="0,150,970,0" />
+               Text="ResultNumber"
+               FontSize="25"
+               HorizontalAlignment="Right"
+               VerticalAlignment="Top"
+               Margin="0,150,970,0" />
 
         <Button x:Name="FirstAnswerButton" HorizontalAlignment="Right" VerticalAlignment="Top"
-                Margin="0,300,1500,0" Width="150" Height="150" Click="AnswerOne">
+            Margin="0,300,1500,0" Width="150" Height="150" Click="AnswerOne">
         </Button>
-        
+
         <Button x:Name="SecondAnswerButton" HorizontalAlignment="Right" VerticalAlignment="Top"
-        Margin="0,300,1200,0" Width="150" Height="150" Click="AnswerTwo">
+            Margin="0,300,1200,0" Width="150" Height="150" Click="AnswerTwo">
         </Button>
-        
-        
+
         <Button x:Name="ThirdAnswerButton" HorizontalAlignment="Right" VerticalAlignment="Top"
-  Margin="0,300,900,0" Width="150" Height="150" Click="AnswerTwo">
+            Margin="0,300,900,0" Width="150" Height="150" Click="AnswerTwo">
         </Button>
 
         <Button x:Name="FourthAnswerButton" HorizontalAlignment="Right" VerticalAlignment="Top"
- Margin="0,300,600,0" Width="150" Height="150" Click="AnswerTwo">
+            Margin="0,300,600,0" Width="150" Height="150" Click="AnswerTwo">
         </Button>
     </Grid>
 </Window>

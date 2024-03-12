@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WPF Maths  Guess Number Game")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6dca3e0b5b8bac9dc359c9df8c5faa53f3234170")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6f6db793e61fb145cddfa7950a0b36150d29b4d")]
 [assembly: System.Reflection.AssemblyProductAttribute("WPF Maths  Guess Number Game")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WPF Maths  Guess Number Game")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

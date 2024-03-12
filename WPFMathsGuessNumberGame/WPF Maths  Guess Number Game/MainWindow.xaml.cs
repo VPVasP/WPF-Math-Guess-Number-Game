@@ -1,6 +1,8 @@
 ﻿using System.Diagnostics;
+using System.Media;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media;
 
 namespace WPF_Maths__Guess_Number_Game
 {
@@ -11,34 +13,41 @@ namespace WPF_Maths__Guess_Number_Game
         private int heartCount = 3;
         private List<Button> buttonList = new List<Button>();
         private readonly Random _rand = new Random();
+        private MediaPlayer mediaPlayer = new MediaPlayer();
 
         public MainWindow()
         {
             InitializeComponent();
+
             UpdateButtonsContent();
             ButtonsContent();
+            UpdateHeartsUI();
+            UpdateScoreUI();
+            PlayMusic("HappyVibe.wav");
         }
-
-
 
         private void Guess(Button button)
         {
-            string buttonContent = button.Content.ToString();
-            string expectedResult = result.ToString().Trim();
-            if (buttonContent == expectedResult)
+            if (button.Content != null)
             {
-                Debug.WriteLine("Correct Answer");
-                score += 5;
-                UpdateScoreUI();
-
-                UpdateButtonsContent();
-            }
-            else
-            {
-                Debug.WriteLine("Wrong Answer");
-                heartCount -= 1;
-                UpdateHeartsUI();
-                HeartsCheck();
+                string? buttonContent = button.Content.ToString()?.Trim();
+                string expectedResult = result.ToString();
+                if (buttonContent == expectedResult)
+                {
+                    Debug.WriteLine("Correct Answer");
+                    score += 5;
+                    UpdateScoreUI();
+                    PlaySoundEffect("CorrectAnswer.wav");
+                    UpdateButtonsContent();
+                }
+                else
+                {
+                    Debug.WriteLine("Wrong Answer");
+                    heartCount -= 1;
+                    PlaySoundEffect("WrongAnswer.wav");
+                    UpdateHeartsUI();
+                    HeartsCheck();
+                }
             }
         }
 
@@ -79,7 +88,6 @@ namespace WPF_Maths__Guess_Number_Game
             buttonList.Add(ThirdAnswerButton);
             buttonList.Add(FourthAnswerButton);
 
-          
             List<int> numbers = new List<int> { 1, 2, 3, 4 };
 
             numbers = GenerateRandomLoop(numbers);
@@ -100,10 +108,9 @@ namespace WPF_Maths__Guess_Number_Game
 
         private void UpdateButtonsContent()
         {
-            
             number1 = _rand.Next(1, 10);
             number2 = _rand.Next(1, 10);
-            result= number1 + number2;
+            result = number1 + number2;
 
             FirstNumberText.Text = number1.ToString() + "+";
             SecondNumberText.Text = number2.ToString() + "=";
@@ -125,6 +132,7 @@ namespace WPF_Maths__Guess_Number_Game
                 }
             }
         }
+
         public List<int> GenerateRandomLoop(List<int> listToShuffle)
         {
             for (int i = listToShuffle.Count - 1; i > 0; i--)
@@ -144,6 +152,19 @@ namespace WPF_Maths__Guess_Number_Game
             {
                 Debug.WriteLine("Lost Game");
             }
+        }
+
+        private void PlaySoundEffect(string audioClipFilePath)
+        {
+            SoundPlayer soundPlayer = new SoundPlayer();
+            soundPlayer.SoundLocation = audioClipFilePath;
+            soundPlayer.Play();
+        }
+
+        private void PlayMusic(string audioClipFilePath)
+        {
+            mediaPlayer.Open(new Uri(audioClipFilePath, UriKind.RelativeOrAbsolute));
+            mediaPlayer.Play();
         }
     }
 }
