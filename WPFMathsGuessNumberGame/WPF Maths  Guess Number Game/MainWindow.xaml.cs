@@ -38,15 +38,16 @@ namespace WPF_Maths__Guess_Number_Game
                     score += 5;
                     UpdateScoreUI();
                     PlaySoundEffect("CorrectAnswer.wav");
+                    UpdateHeartsUI();
                     UpdateButtonsContent();
                 }
                 else
                 {
                     Debug.WriteLine("Wrong Answer");
                     heartCount -= 1;
+                    Debug.WriteLine(heartCount);
                     PlaySoundEffect("WrongAnswer.wav");
                     UpdateHeartsUI();
-                    HeartsCheck();
                 }
             }
         }
@@ -58,8 +59,32 @@ namespace WPF_Maths__Guess_Number_Game
 
         private void UpdateHeartsUI()
         {
-            Hearts.Text = "Hearts: " + heartCount.ToString();
+            if (heartCount == 3)
+            {
+                Heart3.Visibility = Visibility.Visible;
+                Heart2.Visibility = Visibility.Visible;
+                Heart1.Visibility = Visibility.Visible;
+            }
+            if (heartCount == 2)
+            {
+                Heart3.Visibility = Visibility.Collapsed;
+                Heart2.Visibility = Visibility.Visible;
+                Heart1.Visibility = Visibility.Visible;
+            }
+            if (heartCount == 1)
+            {
+                Heart3.Visibility = Visibility.Collapsed;
+                Heart2.Visibility = Visibility.Collapsed;
+                Heart1.Visibility = Visibility.Visible;
+            }
+            if (heartCount == 0)
+            {
+                Heart3.Visibility = Visibility.Collapsed;
+                Heart2.Visibility = Visibility.Collapsed;
+                Heart1.Visibility = Visibility.Collapsed;
+            }
         }
+        
 
         private void AnswerOne(object sender, RoutedEventArgs e)
         {
@@ -145,14 +170,7 @@ namespace WPF_Maths__Guess_Number_Game
             return listToShuffle;
         }
 
-        private void HeartsCheck()
-        {
-            UpdateHeartsUI();
-            if (heartCount == 0)
-            {
-                Debug.WriteLine("Lost Game");
-            }
-        }
+      
 
         private void PlaySoundEffect(string audioClipFilePath)
         {

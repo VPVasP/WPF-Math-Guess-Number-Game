@@ -19,32 +19,42 @@
                HorizontalAlignment="Right"
                VerticalAlignment="Top" />
 
-        <TextBlock x:Name="Hearts"
-               Text="{Binding Path=ScoreText, Mode=OneWay}"
-               FontSize="48"
-               HorizontalAlignment="Left"
-               VerticalAlignment="Top" />
+        <Image x:Name="Heart1" 
+            Source="Heart.png" 
+               Width="150" Height="150" 
+               Margin="0,-800,1670,0" />
+        
+        <Image x:Name="Heart2" 
+     Source="Heart.png" 
+        Width="150" Height="150" 
+        Margin="0,-800,1370,0" />
+
+        <Image x:Name="Heart3" 
+Source="Heart.png" 
+   Width="150" Height="150" 
+   Margin="0,-800,1070,0" />
+
 
         <TextBlock x:Name="FirstNumberText"
                Text="FirstNumber"
-               FontSize="25"
+               FontSize="65"
                HorizontalAlignment="Right"
                VerticalAlignment="Top"
-               Margin="0,150,1370,0" />
+               Margin="0,150,1010,0" />
 
         <TextBlock x:Name="SecondNumberText"
                Text="SecondNumber"
-               FontSize="25"
+               FontSize="65"
                HorizontalAlignment="Right"
                VerticalAlignment="Top"
-               Margin="0,150,1170,0" />
+               Margin="0,150,930,0" />
 
         <TextBlock x:Name="ResultText"
                Text="ResultNumber"
-               FontSize="25"
+               FontSize="65"
                HorizontalAlignment="Right"
                VerticalAlignment="Top"
-               Margin="0,150,970,0" />
+               Margin="0,150,890,0" />
 
         <Button x:Name="FirstAnswerButton" HorizontalAlignment="Right" VerticalAlignment="Top"
             Margin="0,300,1500,0" Width="150" Height="150" Click="AnswerOne">
