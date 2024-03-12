@@ -1,0 +1,21 @@
+C:\Users\vasil\Desktop\C#\WPFGuessNumberGame\WPF-Math-Guess-Number-Game\WPFMathsGuessNumberGame\WPF Maths  Guess Number Game\bin\Debug\net8.0-windows\WPF Maths  Guess Number Game.exe
+C:\Users\vasil\Desktop\C#\WPFGuessNumberGame\WPF-Math-Guess-Number-Game\WPFMathsGuessNumberGame\WPF Maths  Guess Number Game\bin\Debug\net8.0-windows\WPF Maths  Guess Number Game.deps.json
+C:\Users\vasil\Desktop\C#\WPFGuessNumberGame\WPF-Math-Guess-Number-Game\WPFMathsGuessNumberGame\WPF Maths  Guess Number Game\bin\Debug\net8.0-windows\WPF Maths  Guess Number Game.runtimeconfig.json
+C:\Users\vasil\Desktop\C#\WPFGuessNumberGame\WPF-Math-Guess-Number-Game\WPFMathsGuessNumberGame\WPF Maths  Guess Number Game\bin\Debug\net8.0-windows\WPF Maths  Guess Number Game.dll
+C:\Users\vasil\Desktop\C#\WPFGuessNumberGame\WPF-Math-Guess-Number-Game\WPFMathsGuessNumberGame\WPF Maths  Guess Number Game\bin\Debug\net8.0-windows\WPF Maths  Guess Number Game.pdb
+C:\Users\vasil\Desktop\C#\WPFGuessNumberGame\WPF-Math-Guess-Number-Game\WPFMathsGuessNumberGame\WPF Maths  Guess Number Game\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\vasil\Desktop\C#\WPFGuessNumberGame\WPF-Math-Guess-Number-Game\WPFMathsGuessNumberGame\WPF Maths  Guess Number Game\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\vasil\Desktop\C#\WPFGuessNumberGame\WPF-Math-Guess-Number-Game\WPFMathsGuessNumberGame\WPF Maths  Guess Number Game\obj\Debug\net8.0-windows\WPF Maths  Guess Number Game_MarkupCompile.cache
+C:\Users\vasil\Desktop\C#\WPFGuessNumberGame\WPF-Math-Guess-Number-Game\WPFMathsGuessNumberGame\WPF Maths  Guess Number Game\obj\Debug\net8.0-windows\WPF Maths  Guess Number Game_MarkupCompile.lref
+C:\Users\vasil\Desktop\C#\WPFGuessNumberGame\WPF-Math-Guess-Number-Game\WPFMathsGuessNumberGame\WPF Maths  Guess Number Game\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\vasil\Desktop\C#\WPFGuessNumberGame\WPF-Math-Guess-Number-Game\WPFMathsGuessNumberGame\WPF Maths  Guess Number Game\obj\Debug\net8.0-windows\WPF Maths  Guess Number Game.g.resources
+C:\Users\vasil\Desktop\C#\WPFGuessNumberGame\WPF-Math-Guess-Number-Game\WPFMathsGuessNumberGame\WPF Maths  Guess Number Game\obj\Debug\net8.0-windows\WPF Maths  Guess Number Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vasil\Desktop\C#\WPFGuessNumberGame\WPF-Math-Guess-Number-Game\WPFMathsGuessNumberGame\WPF Maths  Guess Number Game\obj\Debug\net8.0-windows\WPF Maths  Guess Number Game.AssemblyInfoInputs.cache
+C:\Users\vasil\Desktop\C#\WPFGuessNumberGame\WPF-Math-Guess-Number-Game\WPFMathsGuessNumberGame\WPF Maths  Guess Number Game\obj\Debug\net8.0-windows\WPF Maths  Guess Number Game.AssemblyInfo.cs
+C:\Users\vasil\Desktop\C#\WPFGuessNumberGame\WPF-Math-Guess-Number-Game\WPFMathsGuessNumberGame\WPF Maths  Guess Number Game\obj\Debug\net8.0-windows\WPF Maths  Guess Number Game.csproj.CoreCompileInputs.cache
+C:\Users\vasil\Desktop\C#\WPFGuessNumberGame\WPF-Math-Guess-Number-Game\WPFMathsGuessNumberGame\WPF Maths  Guess Number Game\obj\Debug\net8.0-windows\WPF Maths  Guess Number Game.sourcelink.json
+C:\Users\vasil\Desktop\C#\WPFGuessNumberGame\WPF-Math-Guess-Number-Game\WPFMathsGuessNumberGame\WPF Maths  Guess Number Game\obj\Debug\net8.0-windows\WPF Maths  Guess Number Game.dll
+C:\Users\vasil\Desktop\C#\WPFGuessNumberGame\WPF-Math-Guess-Number-Game\WPFMathsGuessNumberGame\WPF Maths  Guess Number Game\obj\Debug\net8.0-windows\refint\WPF Maths  Guess Number Game.dll
+C:\Users\vasil\Desktop\C#\WPFGuessNumberGame\WPF-Math-Guess-Number-Game\WPFMathsGuessNumberGame\WPF Maths  Guess Number Game\obj\Debug\net8.0-windows\WPF Maths  Guess Number Game.pdb
+C:\Users\vasil\Desktop\C#\WPFGuessNumberGame\WPF-Math-Guess-Number-Game\WPFMathsGuessNumberGame\WPF Maths  Guess Number Game\obj\Debug\net8.0-windows\WPF Maths  Guess Number Game.genruntimeconfig.cache
+C:\Users\vasil\Desktop\C#\WPFGuessNumberGame\WPF-Math-Guess-Number-Game\WPFMathsGuessNumberGame\WPF Maths  Guess Number Game\obj\Debug\net8.0-windows\ref\WPF Maths  Guess Number Game.dll

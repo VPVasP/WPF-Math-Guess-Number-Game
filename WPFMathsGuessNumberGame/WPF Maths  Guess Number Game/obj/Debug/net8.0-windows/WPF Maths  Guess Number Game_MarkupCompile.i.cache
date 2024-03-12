@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\vasil\Desktop\C#\WPFMathsGuessNumberGame\WPF Maths  Guess Number Game\obj\Debug\net8.0-windows\
+C:\Users\vasil\Desktop\C#\WPFGuessNumberGame\WPF-Math-Guess-Number-Game\WPFMathsGuessNumberGame\WPF Maths  Guess Number Game\obj\Debug\net8.0-windows\
 WPF_Maths__Guess_Number_Game
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\vasil\Desktop\C#\WPFMathsGuessNumberGame\WPF Maths  Guess Number Game\App.xaml
+C:\Users\vasil\Desktop\C#\WPFGuessNumberGame\WPF-Math-Guess-Number-Game\WPFMathsGuessNumberGame\WPF Maths  Guess Number Game\App.xaml
 11407045341
 
 6-297150935
 198-688555687
 MainWindow.xaml;
 
-False
+True
 

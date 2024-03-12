@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vasil\\Desktop\\C#\\WPFMathsGuessNumberGame\\WPF Maths  Guess Number Game\\WPF Maths  Guess Number Game.csproj",
+      "projectUniqueName": "C:\\Users\\vasil\\Desktop\\C#\\WPFGuessNumberGame\\WPF-Math-Guess-Number-Game\\WPFMathsGuessNumberGame\\WPF Maths  Guess Number Game\\WPF Maths  Guess Number Game.csproj",
       "projectName": "WPF Maths  Guess Number Game",
-      "projectPath": "C:\\Users\\vasil\\Desktop\\C#\\WPFMathsGuessNumberGame\\WPF Maths  Guess Number Game\\WPF Maths  Guess Number Game.csproj",
+      "projectPath": "C:\\Users\\vasil\\Desktop\\C#\\WPFGuessNumberGame\\WPF-Math-Guess-Number-Game\\WPFMathsGuessNumberGame\\WPF Maths  Guess Number Game\\WPF Maths  Guess Number Game.csproj",
       "packagesPath": "C:\\Users\\vasil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vasil\\Desktop\\C#\\WPFMathsGuessNumberGame\\WPF Maths  Guess Number Game\\obj\\",
+      "outputPath": "C:\\Users\\vasil\\Desktop\\C#\\WPFGuessNumberGame\\WPF-Math-Guess-Number-Game\\WPFMathsGuessNumberGame\\WPF Maths  Guess Number Game\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
