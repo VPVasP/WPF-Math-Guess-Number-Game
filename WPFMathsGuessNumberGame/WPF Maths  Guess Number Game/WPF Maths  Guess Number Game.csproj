@@ -13,12 +13,17 @@
     <None Remove="Backround.png" />
     <None Remove="ButtonBackround.png" />
     <None Remove="Heart.png" />
+    <None Remove="Muteicon.jpg" />
+    <None Remove="MuteIcon.png" />
+    <None Remove="UnmuteIcon.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Backround.png" />
     <Resource Include="ButtonBackround.png" />
     <Resource Include="Heart.png" />
+    <Resource Include="MuteIcon.png" />
+    <Resource Include="UnmuteIcon.png" />
   </ItemGroup>
 
 </Project>

@@ -4,6 +4,7 @@ using System.Reflection;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
+using System.Windows.Media.Imaging;
 using System.Windows.Threading;
 
 namespace WPF_Maths__Guess_Number_Game
@@ -17,7 +18,7 @@ namespace WPF_Maths__Guess_Number_Game
         private readonly Random _rand = new Random();
         private MediaPlayer mediaPlayer = new MediaPlayer();
 
-  
+
         public MainWindow()
         {
             InitializeComponent();
@@ -87,7 +88,7 @@ namespace WPF_Maths__Guess_Number_Game
                 Heart1.Visibility = Visibility.Collapsed;
             }
         }
-        
+
 
         private void AnswerOne(object sender, RoutedEventArgs e)
         {
@@ -173,7 +174,7 @@ namespace WPF_Maths__Guess_Number_Game
             return listToShuffle;
         }
 
-      
+
 
         private void PlaySoundEffect(string audioClipFilePath)
         {
@@ -194,12 +195,20 @@ namespace WPF_Maths__Guess_Number_Game
 
             if (mediaPlayer.IsMuted)
             {
-                MuteButton.Content = "Unmute Music";
+                MuteButton.Content = new Image
+                {
+                    Source = new BitmapImage(new Uri("/UnmuteIcon.png", UriKind.Relative)),
+                    Stretch = Stretch.UniformToFill
+                };
             }
             else
             {
-                MuteButton.Content = "Mute Music";
+                MuteButton.Content = new Image
+                {
+                    Source = new BitmapImage(new Uri("/MuteIcon.png", UriKind.Relative)),
+                    Stretch = Stretch.UniformToFill
+                };
             }
         }
     }
-}
+    }
